@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #212428;
+  color: #878e99;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Fix sub-pixel gaps & backdrop-blur edge artifacts */
+header {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: none !important;
+  border: none !important;
+}
+
+/* Remove default image gaps */
+img {
+  display: block;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #212428;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2024;
+  border-radius: 4px;
+}
