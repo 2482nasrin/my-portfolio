@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "Nasrin Portfolio",
     images: [
       {
-        url: "/images/profile.jpg", // 👈 public/images ফোল্ডারে থাকা আপনার ছবির সঠিক নাম ও পাথ দিন
+        url: "/images/logo.png", // 👈 public/images ফোল্ডারে থাকা আপনার ছবির সঠিক নাম ও পাথ দিন
         width: 1200,
         height: 630,
         alt: "Nasrin Portfolio Preview",
