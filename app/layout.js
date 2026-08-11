@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  metadataBase: new URL("https://your-portfolio.vercel.app"), // 👈 এখানে আপনার আসল Vercel Domain টি দিন
+  metadataBase: new URL("https://nasrinakter.vercel.app"),
   title: "Nasrin | Web Developer Building Modern Web Applications",
   description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
   icons: {
@@ -10,23 +10,17 @@ export const metadata = {
   openGraph: {
     title: "Nasrin | Web Developer Building Modern Web Applications",
     description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    url: "https://your-portfolio.vercel.app", // 👈 আপনার Vercel Domain
+    url: "https://nasrinakter.vercel.app",
     siteName: "Nasrin Portfolio",
     images: [
       {
-        url: "/images/logo.png", // 👈 public/images ফোল্ডারে থাকা আপনার ছবির সঠিক নাম ও পাথ দিন
+        url: "https://nasrinakter.vercel.app/images/profile.jpg", // অবশ্যই Full/Absolute Link ব্যবহার করুন
         width: 1200,
         height: 630,
         alt: "Nasrin Portfolio Preview",
       },
     ],
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Nasrin | Web Developer Building Modern Web Applications",
-    description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    images: ["/images/profile.jpg"], // 👈 এখানেও একই ছবির পাথ দিন
   },
 };
 
