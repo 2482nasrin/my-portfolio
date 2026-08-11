@@ -203,18 +203,16 @@ export default function Home() {
 
             <div className="hidden xl:flex items-center gap-4">
               <Link
-                href="/pdf/nasrin_cv.pdf"
-                className="px-6 py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] text-[#ff014f] text-xs font-semibold uppercase tracking-wider rounded-md shadow-shadow1 hover:-translate-y-1 transition-all duration-300 border border-[#262a2e] outline-none focus:outline-none"
-               target="_blank" rel="noopener noreferrer">
+                href="#contacts"
+                className="px-6 py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] text-[#ff014f] text-xs font-semibold uppercase tracking-wider rounded-md shadow-shadow1 hover:-translate-y-1 transition-all duration-300 border border-[#262a2e] outline-none focus:outline-none">
                 HIRE ME
               </Link>
             </div>
 
             <div className="flex xl:hidden items-center gap-3">
               <Link
-                href="/pdf/nasrin_cv.pdf"
-                className="px-4 py-2 bg-gradient-to-r from-[#1e2024] to-[#23272b] text-[#ff014f] text-xs font-semibold uppercase tracking-wider rounded-md shadow-shadow1 border border-[#262a2e] outline-none focus:outline-none"
-              target="_blank" rel="noopener noreferrer">
+                href="#contacts"
+                className="px-4 py-2 bg-gradient-to-r from-[#1e2024] to-[#23272b] text-[#ff014f] text-xs font-semibold uppercase tracking-wider rounded-md shadow-shadow1 border border-[#262a2e] outline-none focus:outline-none">
                 HIRE ME
               </Link>
 
@@ -639,7 +637,7 @@ Currently, I focus on creating engaging AI-powered experiences and efficient web
         >
           <div className="text-center mb-12">
             <span className="text-xs sm:text-sm font-semibold tracking-[2px] text-[#ff014f] uppercase block mb-3">
-              7+ YEARS OF EXPERIENCE
+              2+ YEARS OF EXPERIENCE
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-[#c4cfde] tracking-tight">
               My Resume
