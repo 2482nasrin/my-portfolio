@@ -1,37 +1,37 @@
 import './globals.css';
 
 export const metadata = {
-  metadataBase: new URL("https://nasrinakter.vercel.app"), // 👈 এখানে আপনার আসল Vercel Domain URL টি অবশ্যই বসাবেন।
+  metadataBase: new URL("https://nasrinakter.vercel.app"),
   title: "Nasrin | Web Developer Building Modern Web Applications",
   description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
   icons: {
     icon: "/images/fav-icon.png",
   },
   
-  // Open Graph (OG) metadata for Social Media (যেমন: Facebook, WhatsApp, LinkedIn)
+  // Facebook, WhatsApp & Open Graph Card Settings
   openGraph: {
     title: "Nasrin | Web Developer Building Modern Web Applications",
     description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    url: "https://nasrinakter.vercel.app", // 👈 আপনার Vercel URL
+    url: "https://nasrinakter.vercel.app",
     siteName: "Nasrin Portfolio",
     images: [
       {
-        url: "/images/logo.png", // 👈 public/images ফোল্ডারে থাকা আপনার বড় ছবিটির সঠিক নাম ও পাথ দিন।
+        url: "https://nasrinakter.vercel.app/images/logo.png", // 👈 public/images-এ থাকা আপনার ছবির সঠিক নাম
         width: 1200,
         height: 630,
-        alt: "Nasrin Portfolio Preview Image",
+        alt: "Nasrin Portfolio Preview",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-  
-  // Twitter Card metadata for Twitter
+
+  // Twitter & Social Large Image Card Settings
   twitter: {
-    card: "summary_large_image", // 👈 এটি ব্যবহার করলে ছবিটি বড় কার্ড হিসেবে দেখাবে।
+    card: "summary_large_image",
     title: "Nasrin | Web Developer Building Modern Web Applications",
     description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    images: ["/images/logo.png"], // 👈 এখানেও একই ছবি দিন
+    images: ["https://nasrinakter.vercel.app/images/logo.png"], // 👈 এখানেও একই ছবির লিঙ্ক
   },
 };
 
