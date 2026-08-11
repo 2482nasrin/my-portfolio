@@ -1,20 +1,20 @@
 import './globals.css';
 
 export const metadata = {
+  metadataBase: new URL("https://your-portfolio.vercel.app"), // 👈 এখানে আপনার আসল Vercel Domain টি দিন
   title: "Nasrin | Web Developer Building Modern Web Applications",
   description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
   icons: {
     icon: "/images/fav-icon.png",
   },
-  // Open Graph metadata 
   openGraph: {
     title: "Nasrin | Web Developer Building Modern Web Applications",
     description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    url: "https://nasrin.vercel.app",
+    url: "https://your-portfolio.vercel.app", // 👈 আপনার Vercel Domain
     siteName: "Nasrin Portfolio",
     images: [
       {
-        url: "/images/logo.png", 
+        url: "/images/profile.jpg", // 👈 public/images ফোল্ডারে থাকা আপনার ছবির সঠিক নাম ও পাথ দিন
         width: 1200,
         height: 630,
         alt: "Nasrin Portfolio Preview",
@@ -22,12 +22,11 @@ export const metadata = {
     ],
     type: "website",
   },
-  // Twitter Card Meta Data
   twitter: {
     card: "summary_large_image",
     title: "Nasrin | Web Developer Building Modern Web Applications",
     description: "A skilled full-stack developer focused on building modern web applications with PHP, Next.js, and Laravel.",
-    images: ["/images/logo.png"],
+    images: ["/images/profile.jpg"], // 👈 এখানেও একই ছবির পাথ দিন
   },
 };
 
